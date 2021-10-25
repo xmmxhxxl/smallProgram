@@ -1,0 +1,16 @@
+<!--pages/bigBottle/index.wxml-->
+<!--pages/hardBottle/index.wxml-->
+<view class="image">
+	<view class="text">
+		<text>大个塑料瓶 0.05/个</text>
+	</view>
+	<view class="image1">
+		<image class="imagewidth" src="../../image/大瓶冰红茶1.jpg"></image>
+		<text>大个冰红茶瓶子</text>
+	</view>
+	<view class="image1">
+		<image class="imagewidth" src="../../image/大瓶雪碧6.jpg"></image>
+		<text>大个雪碧瓶</text>
+	</view>
+</view>
+

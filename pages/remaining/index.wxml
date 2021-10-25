@@ -1,0 +1,5 @@
+<!--pages/remaining /index.wxml-->
+<view class="ramainingview">
+	<text class="remaining">余额</text>
+	<button class="withdrawal">提现</button>
+</view>

@@ -1,0 +1,36 @@
+<!-- 定义头部标签 -->
+<view class="header">
+	<button class="login_but" wx:if="{{!userInfo}}" bindtap="login" type="primary">授权登录</button>
+	<view wx:else class="root">
+		<image	class="portrait" src="{{userInfo.avatarUrl}}"></image>	
+		<text	class="petName">{{userInfo.nickName}}</text>
+		<!-- <button class="login_out" bindtap="loginOut">退出登陆</button> -->
+	</view>
+</view>
+<!-- 定义下面的标签 -->
+<view wx:if="{{userInfo}}">
+	<view	class="item" bindtap="gotoremaining">
+		<text class="remaining" >账户余额</text>
+		<!-- <view class="right_arrow"></view> -->
+		<image class="arrowhead" src="/icons/arrowhead.png"></image>
+	</view>
+
+	<view	class="item" bindtap="gotohistory">
+		<text	class="history">历史数据</text>
+		<image class="arrowhead" src="/icons/arrowhead.png"></image>
+	</view>
+	<view	class="item">
+		<button	class="feedback" open-type="feedback">反馈建议</button>
+		<image class="arrowhead" src="/icons/arrowhead.png"></image>
+	</view>
+
+	<view	class="item">
+		<button	class="customer" open-type="contact">在线客服</button>
+		<image class="arrowhead" src="/icons/arrowhead.png"></image>
+	</view>
+	<!-- bindtap 绑定函数 -->
+	<view	class="item" bindtap="loginOut">
+		<text	class="quit"  >退出</text>
+		<image class="arrowhead" src="/icons/arrowhead.png"></image>
+	</view>
+</view>

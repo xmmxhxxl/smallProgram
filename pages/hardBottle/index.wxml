@@ -1,0 +1,31 @@
+<!--pages/hardBottle/index.wxml-->
+<view class="image">
+	<view class="text">
+		<text>硬质塑料瓶 0.03/个</text>
+	</view>
+	<view class="image1">
+		<image class="imagewidth" src="../../image/农夫山泉矿泉水1.jpg"></image>
+		<text>农夫山泉矿泉水瓶</text>
+	</view>
+	<view class="image1">
+		<image class="imagewidth" src="../../image/景田矿泉水2.jpg"></image>
+		<text>景田矿泉水瓶</text>
+	</view>
+	<view class="image1">
+		<image class="imagewidth" src="../../image/娃哈哈矿泉水500ml1.jpg"></image>
+		<text>哇哈哈矿泉水瓶</text>
+	</view>
+	<view class="image1">
+		<image class="imagewidth" src="../../image/娃哈哈营养快线3.jpg"></image>
+		<text>哇哈哈营养快线瓶</text>
+	</view>
+	<view class="image1">
+		<image class="imagewidth" src="../../image/怡宝矿泉水2.jpg"></image>
+		<text>怡宝矿泉水瓶</text>
+	</view>
+	<view class="image1">
+		<image class="imagewidth" src="../../image/茶π6.jpg"></image>
+		<text>茶π塑料瓶</text>
+	</view>
+	
+</view>

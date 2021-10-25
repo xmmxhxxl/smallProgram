@@ -1,0 +1,15 @@
+<!--pages/popCan/index.wxml-->
+<view class="image">
+	<view class="text">
+		<text>易拉罐类 0.05/个</text>
+	</view>
+	<view class="image1">
+		<image class="imagewidth" src="../../image/芬达罐装1.jpg"></image>
+		<text>芬达易拉罐</text>
+	</view>
+	<view class="image1">
+		<image class="imagewidth" src="../../image/红牛26.jpg"></image>
+		<text>红牛易拉罐</text>
+	</view>
+</view>
+

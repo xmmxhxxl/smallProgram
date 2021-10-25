@@ -1,0 +1,27 @@
+.indeximage{
+	display: inline;	/*定义布局*/
+	font-size: 30rpx;	/*字体*/
+	background-color:white;		/*背景*/
+	align-items: center;
+	border-bottom: 0.1rpx solid gainsboro;	/*设置实心的线*/
+}
+.imageview{
+	display: flex;
+	padding: 20rpx;
+	align-items: center;
+	border-bottom: 1rpx solid gainsboro;
+	/* flex-direction: row;	 */
+	/* justify-content: space-around; 居中平均排列*/
+}
+.iamgesrc{
+	width: 150rpx;
+	height: 150rpx;
+}
+
+
+.launch{
+	width: 50rpx;
+	height: 50rpx;
+	position: absolute;
+	right: 15rpx;
+}

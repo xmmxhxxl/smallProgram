@@ -1,0 +1,92 @@
+/* 布局头部 */
+.header{
+	height: 400rpx;
+	background: #1296db;
+	display: flex;/* 如果把盒子设置为弹性盒子,必须要加的 */
+	align-items: center;/* 设置一个大盒子内容居中排列*/
+	justify-content:center;	/*在父类中使用该属性，子类中的属性都会居中 */
+}
+/* 设置退出按键透明 */
+.login_out{
+	background-color: transparent;
+	font-size: 40rpx;
+	border: none;
+	/* margin-top: 40rpx; */
+}
+.login_out::after{
+	border: none;
+}
+/* 布局头像信息 */
+.root{
+	display: flex;  /*布局样式*/
+	flex-direction: column; /*上下布局*/
+	justify-content: center;  /*居中*/
+	align-items: center;
+  }
+  /* 设置头像信息 */
+  .portrait{
+	width: 200rpx;
+	height: 200rpx;
+	border-radius: 50%;
+	margin-top: 30rpx;
+	margin-bottom: 30rpx;
+  }
+
+  /* 使用css绘制一个箭头 */
+  .right_arrow{
+	border: solid black;
+	border-width: 0 3px 3px 0;
+	padding: 3px;
+	position: absolute;
+	right: 15rpx;
+	transform: rotate(-45deg);	/*隐藏左侧的部分*/
+	-webkit-transform: rotate(-45deg);
+  }
+  /* 定义组件背景颜色 */
+  /* 定义组件字体 */
+.item{
+	display: flex;	/*定义布局*/
+	font-size: 40rpx;	/*字体*/
+	background-color:white;		/*背景*/
+	padding: 25rpx;	/*上下间距*/
+	align-items: center;
+	border-bottom: 0.1rpx solid gainsboro;	/*设置实心的线*/
+}
+.arrowhead{
+	width: 40rpx;
+	height: 40rpx;
+	position: absolute;
+	right: 15rpx;
+}
+/* 消除button边框*/
+.feedback{
+	width: 100%;
+	background: white;
+	border: none;
+	text-align: left;
+	padding: 0rpx;
+	margin: 0rpx;
+	line-height: 1.3;
+	font-size: 40rpx;
+}
+/* 消除 */
+.feedback::after{
+	border: none;
+	border-radius: 0;
+}
+
+.customer{
+	width: 100%;
+	background: white;
+	border: none;
+	text-align: left;
+	padding: 0rpx;
+	margin: 0rpx;
+	line-height: 1.3;
+	font-size: 40rpx;
+}
+/* 消除 */
+.customer::after{
+	border: none;
+	border-radius: 0;
+}

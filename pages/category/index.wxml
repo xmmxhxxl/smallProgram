@@ -1,0 +1,22 @@
+<view class="indeximage">
+	<view class="imageview" bindtap="gotoHatdBottle">
+		<image class="iamgesrc" src="/icons/hardBottle.png"></image>
+		<text>硬质塑料瓶类</text>
+		<image class="launch" src="/icons/arrowhead.png"></image>
+	</view>
+	<view class="imageview" bindtap="gotosoftBottle">
+		<image class="iamgesrc" src="/icons/softBottle.png" ></image>
+		<text>软质塑料瓶类</text>
+		<image class="launch" src="/icons/arrowhead.png"></image>
+	</view>
+	<view class="imageview" bindtap="gotopopCan">
+		<image class="iamgesrc" src="/icons/popCan.png"></image>
+		<text>易拉罐类</text>
+		<image class="launch" src="/icons/arrowhead.png"></image>
+	</view>
+	<view class="imageview" bindtap="gotobigBottle">
+		<image class="iamgesrc" src="/icons/bigBottle.png"></image>
+		<text>大瓶子类</text>
+		<image class="launch" src="/icons/arrowhead.png"></image>
+	</view>
+</view>

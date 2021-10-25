@@ -1,0 +1,19 @@
+/* pages/bigBottle/index.wxss */
+/* pages/hardBottle/index.wxss */
+.image1{
+	display: flex;	/*定义布局*/
+	font-size: 30rpx;	/*字体*/
+	border-bottom: 0.1rpx solid gainsboro;	/*设置实心的线*/
+	padding: 20rpx;
+}
+.imagewidth{
+	width: 150rpx;
+	height: 150rpx;
+}
+.text{
+	display: flex;
+	align-items: center;
+	font-size: 30rpx;
+	margin-top: 15rpx;
+	margin-bottom: 15rpx;
+}

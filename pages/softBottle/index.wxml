@@ -1,0 +1,9 @@
+<view class="image">
+	<view class="text">
+		<text>软质塑料瓶 0.01/个</text>
+	</view>
+	<view class="image1">
+		<image class="imagewidth" src="../../image/冰露矿泉水2.jpg"></image>
+		<text>冰露矿泉水瓶</text>
+	</view>
+</view>

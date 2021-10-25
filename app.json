@@ -1,0 +1,47 @@
+{
+	"pages": [
+		"pages/category/index",
+		"pages/user/index",
+		"pages/hardBottle/index",
+		"pages/softBottle/index",
+		"pages/popCan/index",
+		"pages/bigBottle/index",
+		"pages/history/index",
+		"pages/remaining/index",
+		"pages/shopMap/shopMap"
+	],
+	"window": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#1296db",
+		"navigationBarTitleText": "瓶子回收",
+		"navigationBarTextStyle": "white"
+	},
+	"tabBar": {
+		"color": "",
+		"selectedColor": "#1296db",
+		"backgroundColor": "",
+		"position": "bottom",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/category/index",
+				"text": "类别",
+				"iconPath": "./icons/category.png",
+				"selectedIconPath": "./icons/categoryclick.png"
+			},
+			{
+				"pagePath": "pages/shopMap/shopMap",
+				"text": "附近",
+				"iconPath": "./icons/map.png",
+				"selectedIconPath": "./icons/mapclick.png"
+			},
+			{
+				"pagePath": "pages/user/index",
+				"text": "个人中心",
+				"iconPath": "./icons/user.png",
+				"selectedIconPath": "./icons/userclick.png"
+			}
+		]
+	},
+	"sitemapLocation": "sitemap.json"
+}
